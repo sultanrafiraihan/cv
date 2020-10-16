@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: orangered;
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+.menu:hover {
+  background-color:  #ff9;
+  color: black;
+}

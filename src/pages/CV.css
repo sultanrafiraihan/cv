@@ -1,0 +1,27 @@
+body {
+  background: #fff;
+}
+.container {
+  position: relative;
+  background: #ff9;
+  text-align: justify;
+  text-transform: capitalize;
+  margin: 100px 200px;
+}
+
+.container h2 {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -50px;
+}
+
+.container p {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.container br {
+  margin-left: 50px;
+}

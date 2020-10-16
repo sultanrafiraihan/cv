@@ -1,0 +1,45 @@
+body {
+  background: #fff;
+}
+
+.container {
+  position: relative;
+  background: #ff9;
+  text-align: justify;
+  text-transform: capitalize;
+  margin: 50px 150px;
+}
+
+.container h2 {   
+  text-align: center;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin-bottom: 50px;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.container .oke{
+  height: 120px;
+  background-image: url(../images/gambar.jpg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 2px solid #000;
+  background-position: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container .oke h4{
+  text-align: center;
+  color: #ff9;
+}
+
+.container p {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: inline-block;
+} 
