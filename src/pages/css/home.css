@@ -34,8 +34,8 @@ body {
 }
 
 .container .oke h4{
-  text-align: center;
-  color: #ff9;
+  text-align: left;
+  color: #000;
 }
 
 .container p {
@@ -43,3 +43,24 @@ body {
   margin-left: 50px;
   display: inline-block;
 } 
+
+.container button{
+  margin-top: 10px;
+  background: orangered;
+  color: #fff;
+  border-color: orangered;
+}
+
+.container button:hover{
+  color: #000;
+  background: #ff9;
+  border-color: #ff9;
+}
+
+.container .skill{
+  margin-top: 10px;
+  margin-left: 50px;
+  background: orangered;
+  color: #fff;
+  border-color: orangered;
+}

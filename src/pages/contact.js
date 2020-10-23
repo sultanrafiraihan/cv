@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { UserContext } from '../userContext';
 import './css/contact.css';
 
-function Contact() {
+export function Contact() {
+  const { value, setValue } = useContext(UserContext);
+
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Hello</title>
+        <title>Contact</title>
       </Helmet>
       <div className="Kontak">
         <div className="col-lg">
@@ -24,6 +27,10 @@ function Contact() {
           <p>email :</p>
           <p>sultanrafi21@gmail.com</p>
         </div>
+      </div>
+      <div>
+        <h2>Home</h2>
+        <div>{value}</div>
       </div>
     </HelmetProvider>
   );
